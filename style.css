@@ -1,0 +1,89 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/841/669/295/princess-mononoke-wallpaper-preview.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 40px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .subtitulo {
+    color: #ffffff;
+    margin: 0 0 5px;
+    font-size: 20px;
+  }
+  
+  .page-logo {
+    width: 100px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  body > img {
+    margin: 40px 40px;
+  }
+  
+  img {
+    max-height: 250px;
+    margin: 20px 20px;
+  }
+  
+  img:hover {
+    border: solid 2px red;
+    transform: scale(1.1);
+    transition-duration: 0.7s;
+    cursor: pointer;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+  }
+  
+  footer {
+    font-family: "Roboto Mono", monospace;
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  a:hover {
+    color:red;
+  }
